@@ -15,7 +15,7 @@ public class Main {
 
         employeeBook.printAllEmployees();
         double totalSalaries = employeeBook.totalSalaries();
-        System.out.printf("Сумма ЗП всех сотрудников за месяц: %.3f%n", totalSalaries);
+        System.out.println("Сумма ЗП всех сотрудников за месяц: " + totalSalaries);
         Employee employeeWithMinSalary = employeeBook.findEmployeeWithMinSalary();
         System.out.println("Сотрудник с минимальной ЗП: " + employeeWithMinSalary);
         Employee employeeWithMaxSalary = employeeBook.findEmployeeWithMaxSalary();
